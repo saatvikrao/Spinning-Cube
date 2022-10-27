@@ -7,6 +7,8 @@ Rotation Matrix - https://en.wikipedia.org/wiki/Rotation_matrix
 ### Tools: 
 Symbolab - to solve the matrix operations and functions 
 
+---
+
 ### Guide: 
 #### cubeWidth 
   - Sets the length of one side of the cube 
