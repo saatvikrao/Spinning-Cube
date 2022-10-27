@@ -9,7 +9,7 @@ float cubeWidth = 20;
 int width = 160, height = 44;
 float zBuffer[160 * 44];
 char buffer[160 * 44];
-int backgroundASCIICode = '.';
+int backgroundASCIICode = ' ';
 int distanceFromCam = 100;
 float horizontalOffset;
 float K1 = 40;
@@ -67,9 +67,12 @@ int main() {
   while (1) {
     memset(buffer, backgroundASCIICode, width * height);
     memset(zBuffer, 0, width * height * 4);
+    
+    
+    // first cube
     cubeWidth = 20;
     horizontalOffset = -2 * cubeWidth;
-    // first cube
+    
     for (float cubeX = -cubeWidth; cubeX < cubeWidth; cubeX += incrementSpeed) {
       for (float cubeY = -cubeWidth; cubeY < cubeWidth;
            cubeY += incrementSpeed) {
@@ -82,10 +85,11 @@ int main() {
       }
     }
     
+    
+    // second cube
     cubeWidth = 10;
     horizontalOffset = 1 * cubeWidth;
     
-    // second cube
     for (float cubeX = -cubeWidth; cubeX < cubeWidth; cubeX += incrementSpeed) {
       for (float cubeY = -cubeWidth; cubeY < cubeWidth;
            cubeY += incrementSpeed) {
@@ -98,10 +102,11 @@ int main() {
       }
     }
     
+    
+    // third cube
     cubeWidth = 5;
     horizontalOffset = 8 * cubeWidth;
     
-    // third cube
     for (float cubeX = -cubeWidth; cubeX < cubeWidth; cubeX += incrementSpeed) {
       for (float cubeY = -cubeWidth; cubeY < cubeWidth;
            cubeY += incrementSpeed) {
