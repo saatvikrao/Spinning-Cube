@@ -1,12 +1,12 @@
 # Spinning-Cube
-This is a C language code to visualize a spinning cube using just ASCII characters. 
+This is a C language code to visualize a spinning cube using just ASCII characters. Follow the guide to know more aobut the working and possible modifications. 
 
 <br/>
 
 ### Tools: 
 Symbolab - to solve the matrix operations and functions 
 
----
+<br/>
 
 ### Guide: 
 #### cubeWidth 
