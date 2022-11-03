@@ -1,5 +1,5 @@
 # Spinning-Cube
-This is a C language code to visualize a spinning cube using just ASCII characters. Follow the guide to know more aobut the working and possible modifications. 
+This is a C language code to visualize a spinning cube using just ASCII characters. Follow the guide to know more about the working and possible modifications. 
 
 ---
 
